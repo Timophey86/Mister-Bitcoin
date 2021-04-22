@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "//Mister-Bitcoin/static/css/main.4cb8f3fc.chunk.css",
+    "main.js": "//Mister-Bitcoin/static/js/main.7086a64c.chunk.js",
+    "main.js.map": "//Mister-Bitcoin/static/js/main.7086a64c.chunk.js.map",
+    "runtime-main.js": "//Mister-Bitcoin/static/js/runtime-main.95113b05.js",
+    "runtime-main.js.map": "//Mister-Bitcoin/static/js/runtime-main.95113b05.js.map",
+    "static/css/2.3f6a4e7d.chunk.css": "//Mister-Bitcoin/static/css/2.3f6a4e7d.chunk.css",
+    "static/js/2.f98337b1.chunk.js": "//Mister-Bitcoin/static/js/2.f98337b1.chunk.js",
+    "static/js/2.f98337b1.chunk.js.map": "//Mister-Bitcoin/static/js/2.f98337b1.chunk.js.map",
+    "static/js/3.c52946cb.chunk.js": "//Mister-Bitcoin/static/js/3.c52946cb.chunk.js",
+    "static/js/3.c52946cb.chunk.js.map": "//Mister-Bitcoin/static/js/3.c52946cb.chunk.js.map",
+    "index.html": "//Mister-Bitcoin/index.html",
+    "static/css/2.3f6a4e7d.chunk.css.map": "//Mister-Bitcoin/static/css/2.3f6a4e7d.chunk.css.map",
+    "static/css/main.4cb8f3fc.chunk.css.map": "//Mister-Bitcoin/static/css/main.4cb8f3fc.chunk.css.map",
+    "static/js/2.f98337b1.chunk.js.LICENSE.txt": "//Mister-Bitcoin/static/js/2.f98337b1.chunk.js.LICENSE.txt",
+    "static/media/home-page.scss": "//Mister-Bitcoin/static/media/Roboto-Regular.03523cf5.ttf",
+    "static/media/add-user-svgrepo-com.8b0fa5cd.svg": "//Mister-Bitcoin/static/media/add-user-svgrepo-com.8b0fa5cd.svg",
+    "static/media/back-arrow.ff809686.svg": "//Mister-Bitcoin/static/media/back-arrow.ff809686.svg",
+    "static/media/left-arrow.c37d02d5.svg": "//Mister-Bitcoin/static/media/left-arrow.c37d02d5.svg",
+    "static/media/menu.de21b81a.svg": "//Mister-Bitcoin/static/media/menu.de21b81a.svg",
+    "static/media/right-arrow.b7f95d22.svg": "//Mister-Bitcoin/static/media/right-arrow.b7f95d22.svg",
+    "static/media/wrapped-bitcoin-wbtc-logo.fa29bebf.svg": "//Mister-Bitcoin/static/media/wrapped-bitcoin-wbtc-logo.fa29bebf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95113b05.js",
+    "static/css/2.3f6a4e7d.chunk.css",
+    "static/js/2.f98337b1.chunk.js",
+    "static/css/main.4cb8f3fc.chunk.css",
+    "static/js/main.7086a64c.chunk.js"
+  ]
+}
