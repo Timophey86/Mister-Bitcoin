@@ -1,0 +1,31 @@
+.contactPage-container {
+  margin-top: 15px;
+  .contactPage {
+    position: relative;
+    .add-contact-btn {
+      position: absolute;
+      top: 25px;
+      right: 0;
+      font-weight: 800;
+      background-color: transparent;
+      width: 220px;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .add-user-img {
+        max-width: 15%;
+        max-height: 15%;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 467px) {
+  .contactPage-container .contactPage .add-contact-btn {
+    top: 48px;
+  }
+}

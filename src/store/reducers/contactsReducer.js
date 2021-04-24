@@ -1,0 +1,43 @@
+const INITIAL_STATE = {
+  contacts: [],
+  currContact: null,
+  currContactId: null
+};
+
+export function contactsReducer(state = INITIAL_STATE, action) {
+  switch (action.type) {
+    case "SET_CONTACTS":
+      return {
+        ...state,
+        contacts: action.contacts,
+      };
+      case "SET_CONTACT":
+      return {
+        ...state,
+        currContact: action.contact,
+        currContactId: action.contactId
+      };
+    case "ADD_CONTACT":
+      return {
+        ...state,
+        contacts: [...state.contacts, action.contact],
+      };
+    case "DELETE_CONTACT":
+      return {
+        ...state,
+        contacts: state.contacts.filter(
+          (contact) => contact._id !== action.contactId
+        ),
+      };
+    case "UPDATE_CONTACT":
+      const { updatedContact } = action;
+      return {
+        ...state,
+        contacts: state.contacts.map((contact) =>
+          contact._id === updatedContact._id ? updatedContact : contact
+        ),
+      };
+    default:
+      return state;
+  }
+}

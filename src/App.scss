@@ -1,0 +1,64 @@
+@import "./assets/mixins/mixins";
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  background-color: #edffec;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p,
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2rem 1fr 2rem;
+
+  > * {
+    grid-column: 2;
+  }
+
+  > .full {
+    grid-column: 1 / -1;
+  }
+
+  @include for-mobile-layout {
+    grid-template-columns: 1rem 1fr 1rem;
+  }
+
+  @include for-wide-layout {
+    grid-template-columns:
+      minmax(2rem, 1fr)
+      minmax(auto, $break-wide)
+      minmax(2rem, 1fr);
+  }
+}

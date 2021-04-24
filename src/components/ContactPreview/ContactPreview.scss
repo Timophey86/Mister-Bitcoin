@@ -1,0 +1,20 @@
+.contact-preview {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 2px 5px 3px 1px lightgray;
+    img{
+        padding: 10px;
+        width: 50%;
+    }
+    .remove {
+        position: absolute;
+        bottom: 5px;
+        right:10px
+    }
+}

@@ -1,0 +1,31 @@
+.transferFund {
+  position: relative;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 5px 0;
+  background-color: #f6dfeb;
+  label{
+      display: flex;
+      justify-content: space-around;
+      button {
+          height: 40%;
+          font-size: 1rem;
+          justify-self: flex-end;
+          align-self: flex-end;
+          border: none;
+          padding: 5px;
+          background-color: #e4bad4;
+          &:hover {
+            background-color: #d4a0c0;
+          }
+      }
+      .MuiInputBase-input{
+       padding: 2px 0 7px
+      }
+  }
+//   button {
+//       position: absolute;
+//       bottom: 12px;
+//       right: 5px   
+//     }
+}

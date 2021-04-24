@@ -1,0 +1,121 @@
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vw;
+  margin-top: 15px;
+  h1 {
+    font-family: Roboto;
+  }
+  .details-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    img {
+      width: 200px;
+      margin: 10px 0;
+    }
+    .back-btn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: none;
+      background-color: transparent;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    p {
+      &.bio {
+        width: 60%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .contact-email {
+        font-weight: 600;
+      }
+      .contact-phone {
+        font-weight: 600;
+      }
+    }
+    button {
+      cursor: pointer;
+    }
+    .move-page {
+      margin-top: 10px;
+      width: 35%;
+      display: flex;
+      justify-content: space-between;
+      button {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        margin: 0;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      img {
+        height: 16px;
+        width: 16px;
+        &.right {
+          margin-left: 5px;
+        }
+        &.left {
+          margin-right: 5px;
+        }
+      }
+    }
+    .edit-contact-btn {
+      position: absolute;
+      top: 0;
+      right: 0px;
+      border: 0;
+      background-color: transparent;
+      font-weight: 700;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .back-btn {
+      display: flex;
+      flex-direction: column;
+      width: 100px;
+      font-weight: 700;
+      .back-img {
+        margin-top: 0;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 667px) {
+  .contact-details .details-container .move-page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 467px) {
+  .contact-details h1 {
+    font-size: 1.6rem;
+  }
+  .contact-details .details-container .back-btn .back-img {
+    margin: 0;
+  }
+  .contact-details .details-container img {
+    width: 150px;
+  }
+  .contact-details .details-container .move-page {
+    width: 100%;
+  }
+  p {
+    text-align: center;
+  }
+}
